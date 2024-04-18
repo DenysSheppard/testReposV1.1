@@ -1,0 +1,15 @@
+#include<iostream>
+#include<sum.h>
+#include<prod.h>
+#include<cmath>
+#include<dif.h>
+
+using namespace std;
+
+int main()
+{
+	cout << " Hello Git";
+	cout << "Sum =" << sum(12,23)<< endl;
+cout << "prod =" << prod(12,23)<< endl;
+cout << "dif =" << dif(12,23)<< endl;
+}
